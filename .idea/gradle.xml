@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -48,11 +49,27 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-ventas-gestion-descuentos" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ms-ventas-gestion-descuentos" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/ms-ventas-gestion-productos" />
         <option name="gradleJvm" value="17" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/ms-ventas-gestion-productos" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-ventas-gestion-reservas" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ms-ventas-gestion-reservas" />
           </set>
         </option>
       </GradleProjectSettings>

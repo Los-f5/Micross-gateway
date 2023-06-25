@@ -7,7 +7,9 @@
     <file type="web" url="file://$PROJECT_DIR$/ms-admin-server-config" />
     <file type="web" url="file://$PROJECT_DIR$/ms-admin-server-registry" />
     <file type="web" url="file://$PROJECT_DIR$/ms-ventas-gestion-clientes" />
+    <file type="web" url="file://$PROJECT_DIR$/ms-ventas-gestion-descuentos" />
     <file type="web" url="file://$PROJECT_DIR$/ms-ventas-gestion-productos" />
+    <file type="web" url="file://$PROJECT_DIR$/ms-ventas-gestion-reservas" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

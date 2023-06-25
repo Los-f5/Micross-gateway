@@ -1,12 +1,11 @@
-package pe.edu.galaxy.training.java.ms.sc.ventas.msventasgestionproductos.commons;
+package pe.edu.galaxy.training.java.ms.sc.ventas.msventasgestiondescuentos.commons;
 
 public class GlobalConstants {
 	
 	
 	/* APIS */
 
-	public static final String  	API_ClIENTE			=	"/v1/clientes";
-	public static final String  	API_RESERVA			=	"/v1/reservas";
+	public static final String  	API_DESCUENTO			=	"/v1/descuento";
 
 	
 	/* Mensajes*/

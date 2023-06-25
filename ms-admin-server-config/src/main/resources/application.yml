@@ -4,25 +4,20 @@ spring:
   application:
     name: ms-admin-config-server
 #Configuracion Local
-#  profiles:
-#    active: native
+  profiles:
+    active: git
 #  cloud:
 #    config:
 #      server:
 #        native:
-#          searchLocations: file:///C:\Users\Noodlexz\Desktop\3.-Gateway\ms-admin-server-data
-
-#Configuracion Cloud (git)
+#          searchLocations: file:///C:\Users\Noodlexz\Documents\GitHub\Micross-gateway\ms-admin-server-data
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/GalaxyTraining/MS-02-2022.git
-          search-paths:
-          - ms-admin-server-data
-          username: ${USER_NAME}
-          password: ${USER_PASSWORD}
+          uri: https://github.com/Los-f5/admin-data
+          username: anllacarpo@gmail.com
+          password: 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
           clone-on-start: true
-          force-pull: true
-          timeout: 5
-          default-label: 02.-SpringCloud2021
+#          force-pull: true
+#          timeout: 5

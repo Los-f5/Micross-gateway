@@ -13,7 +13,6 @@ import pe.edu.galaxy.training.java.ms.sc.ventas.msventasgestionproductos.service
 
 @Service
 public class ClienteServiceImpl implements ClienteService{
- 
 	private ClienteRepository clienteRepository;
 	private JsonMapper jsonMapper;
 	
@@ -54,7 +53,10 @@ public class ClienteServiceImpl implements ClienteService{
 
 	@Override
 	public ClienteDTO save(ClienteDTO t) throws ServiceException {
+
+
 		return this.getClienteDTO(this.clienteRepository.save(this.getClienteEntity(t)));
+
 	}
 	
 }
